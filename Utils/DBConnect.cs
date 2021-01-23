@@ -18,10 +18,10 @@ namespace wsjt_message.Listener.Utils
 
         private static string DBconnection() //MySQL connection String
         {
-            string username = "";
-            string password = "";
-            string server = "";
-            string database = "";
+            string username = "ft8off";
+            string password = "T1p2Tip";
+            string server = "localhost";
+            string database = "ft8off";
             string myConnector = "user=" + username + ";password=" + password + ";server=" + server + ";port=3306;database=" + database;
             return myConnector;
         }
@@ -153,7 +153,7 @@ namespace wsjt_message.Listener.Utils
         public static void DBinsert(string call, string gridsquare, string mode, string rst_sent, string rst_rcvd, string qso_date, string time_on, string qso_date_off, string time_off, string band, string freq, string station_callsign, string my_gridsquare, string tx_pwr, string comment, string name, string operator_call, string propmode, int is_dx, int is_event)
         {
             //ADIF Log insert Query
-            string query = "INSERT INTO ft8log VALUES (default,@call, @gridsquare, @mode, @rst_sent, @rst_rcvd, @qso_date, @time_on, @qso_date_off, @time_off, @band, @freq, @station_callsign, @my_gridsquare, @tx_pwr, @comment, @name, @operator, @propmode, @is_dx, @is_event)";
+            string query = "INSERT IGNORE INTO ft8log VALUES (default,@call, @gridsquare, @mode, @rst_sent, @rst_rcvd, @qso_date, @time_on, @qso_date_off, @time_off, @band, @freq, @station_callsign, @my_gridsquare, @tx_pwr, @comment, @name, @operator, @propmode, @is_dx, @is_event)";
             cmd = new MySqlCommand(query, conn);
             cmd.Parameters.AddWithValue("@call", call);
             cmd.Parameters.AddWithValue("@gridsquare", gridsquare);
