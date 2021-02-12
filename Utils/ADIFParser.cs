@@ -74,7 +74,7 @@ namespace wsjt_message.Listener.Utils
                         }
                     }
                     len = Convert.ToInt32(len_string);
-                    adifout[x] = tag_name;
+                    adifout[x] = tag_name.ToLower();
                     x++;
                     while (len > 0)
                     {

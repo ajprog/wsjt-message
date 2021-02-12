@@ -1,3 +1,4 @@
+bin/*
 bin/Debug/net5.0/BouncyCastle.Crypto.dll
 bin/Debug/net5.0/Google.Protobuf.dll
 bin/Debug/net5.0/K4os.Compression.LZ4.dll

@@ -1,0 +1,1263 @@
+-- Logs begin at Fri 2021-01-15 01:12:46 UTC, end at Wed 2021-02-10 20:05:49 UTC. --
+Jan 23 04:57:00 ip-172-31-27-172 systemd[1]: Starting wsjt-message app...
+Jan 23 04:57:00 ip-172-31-27-172 systemd[37736]: wsjt-message.service: Failed to execute command: No such file or directory
+Jan 23 04:57:00 ip-172-31-27-172 systemd[37736]: wsjt-message.service: Failed at step EXEC spawning /usr/sbin/wsjt-message: No such file or directory
+Jan 23 04:57:00 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=203/EXEC
+Jan 23 04:57:00 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 23 04:57:00 ip-172-31-27-172 systemd[1]: Failed to start wsjt-message app.
+Jan 23 04:58:39 ip-172-31-27-172 systemd[1]: Starting wsjt-message app...
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: WSJT-X UDP Monitor
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: UDP Listen Port .: 2238
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: Little Endian....: True
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: Start Date UTC ..: 01/23/2021 04:58:39
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: Program adatped for FT8OFF by KD2FMW
+Jan 23 04:58:39 ip-172-31-27-172 wsjt-message[37795]: FT8OFF Is ready to start receiving packets
+Jan 23 05:00:09 ip-172-31-27-172 systemd[1]: wsjt-message.service: start operation timed out. Terminating.
+Jan 23 05:00:09 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 23 05:00:09 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'timeout'.
+Jan 23 05:00:09 ip-172-31-27-172 systemd[1]: Failed to start wsjt-message app.
+Jan 23 05:11:11 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: WSJT-X UDP Monitor
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: UDP Listen Port .: 2238
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: Little Endian....: True
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: Start Date UTC ..: 01/23/2021 05:11:11
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: Program adatped for FT8OFF by KD2FMW
+Jan 23 05:11:11 ip-172-31-27-172 wsjt-message[38035]: FT8OFF Is ready to start receiving packets
+Jan 23 05:13:04 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Jan 23 05:13:04 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 23 05:13:04 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 23 05:13:04 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Jan 23 05:13:45 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: WSJT-X UDP Monitor
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: UDP Listen Port .: 2238
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: Little Endian....: True
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: Start Date UTC ..: 01/23/2021 05:13:45
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: Program adatped for FT8OFF by KD2FMW
+Jan 23 05:13:45 ip-172-31-27-172 wsjt-message[38093]: FT8OFF Is ready to start receiving packets
+Jan 23 05:26:57 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Jan 23 05:26:58 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 23 05:26:58 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 23 05:26:58 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Jan 23 05:27:52 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: WSJT-X UDP Monitor
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: UDP Listen Port .: 2238
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: Little Endian....: True
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: Start Date UTC ..: 01/23/2021 05:27:53
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: Program adatped for FT8OFF by KD2FMW
+Jan 23 05:27:53 ip-172-31-27-172 wsjt-message[515]: FT8OFF Is ready to start receiving packets
+Jan 23 06:09:11 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Jan 23 06:09:11 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 23 06:09:11 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 23 06:09:11 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Jan 23 06:09:36 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: WSJT-X UDP Monitor
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: UDP Listen Port .: 2238
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: Little Endian....: True
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: Start Date UTC ..: 01/23/2021 06:09:36
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: Program adatped for FT8OFF by KD2FMW
+Jan 23 06:09:36 ip-172-31-27-172 wsjt-message[1803]: FT8OFF Is ready to start receiving packets
+Jan 30 02:45:16 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Jan 30 02:45:17 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 30 02:45:17 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 30 02:45:17 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Jan 30 02:47:33 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: WSJT-X UDP Monitor
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: UDP Listen Port .: 2238
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: Little Endian....: True
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: Start Date UTC ..: 01/30/2021 02:47:34
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: Program adatped for FT8OFF by KD2FMW
+Jan 30 02:47:34 ip-172-31-27-172 wsjt-message[513]: FT8OFF Is ready to start receiving packets
+Jan 30 03:39:53 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Jan 30 03:39:53 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Jan 30 03:39:53 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Jan 30 03:39:53 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Jan 30 04:05:34 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: WSJT-X UDP Monitor
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: UDP Listen Port .: 2238
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: Little Endian....: True
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: Start Date UTC ..: 01/30/2021 04:05:34
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: Program adatped for FT8OFF by KD2FMW
+Jan 30 04:05:34 ip-172-31-27-172 wsjt-message[1973]: FT8OFF Is ready to start receiving packets
+Jan 30 12:14:23 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 12:14:23 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:19:22 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:19:22 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:24:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:24:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:38:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:38:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:49:18 ip-172-31-27-172 wsjt-message[1973]: 70
+Jan 30 21:49:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:50:48 ip-172-31-27-172 wsjt-message[1973]: 1
+Jan 30 21:50:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:58:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 21:58:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:01:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:01:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:08:14 ip-172-31-27-172 wsjt-message[1973]: 6
+Jan 30 22:08:14 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:15:03 ip-172-31-27-172 wsjt-message[1973]: 112
+Jan 30 22:15:04 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:40:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 30 22:40:06 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 10:41:07 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 10:41:07 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 11:04:18 ip-172-31-27-172 wsjt-message[1973]: 95
+Jan 31 11:04:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 11:05:45 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 11:05:45 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 11:11:11 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 11:11:12 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 16:52:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 16:52:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 16:55:01 ip-172-31-27-172 wsjt-message[1973]: 265
+Jan 31 16:55:01 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 17:44:57 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 17:44:57 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 18:35:34 ip-172-31-27-172 wsjt-message[1973]: 100
+Jan 31 18:35:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:23:18 ip-172-31-27-172 wsjt-message[1973]: 72
+Jan 31 21:23:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:41:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:41:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:43:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:43:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:46:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:46:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:53:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 21:53:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 22:04:17 ip-172-31-27-172 wsjt-message[1973]: 1
+Jan 31 22:04:17 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 22:05:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 22:05:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 22:08:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Jan 31 22:08:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 12:53:10 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 12:53:10 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 12:59:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 12:59:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:05:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:05:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:09:50 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 13:09:50 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:13:19 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:13:19 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:19:08 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:19:08 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:26:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:26:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:28:53 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 13:28:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:31:50 ip-172-31-27-172 wsjt-message[1973]: 54
+Feb 01 13:31:50 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:32:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:32:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:37:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:37:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:45:21 ip-172-31-27-172 wsjt-message[1973]: 288
+Feb 01 13:45:21 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:49:02 ip-172-31-27-172 wsjt-message[1973]: 281
+Feb 01 13:49:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 13:51:18 ip-172-31-27-172 wsjt-message[1973]: 265
+Feb 01 13:51:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:11:36 ip-172-31-27-172 wsjt-message[1973]: 148
+Feb 01 15:11:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:23:52 ip-172-31-27-172 wsjt-message[1973]: 281
+Feb 01 15:23:52 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:33:06 ip-172-31-27-172 wsjt-message[1973]: 114
+Feb 01 15:33:06 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:40:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:40:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 15:51:33 ip-172-31-27-172 wsjt-message[1973]: 146
+Feb 01 15:51:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 16:09:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 16:09:44 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 16:39:41 ip-172-31-27-172 wsjt-message[1973]: 66
+Feb 01 16:39:41 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 17:06:07 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 17:06:07 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:41:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:41:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:41:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:41:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:45:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:45:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:47:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:47:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:47:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:47:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:52:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:52:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:52:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:52:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:52 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:56:53 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:58:49 ip-172-31-27-172 wsjt-message[1973]: 72
+Feb 01 18:58:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 18:58:49 ip-172-31-27-172 wsjt-message[1973]: 72
+Feb 01 18:58:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:03:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:03:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:14:33 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 19:14:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:17:22 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:17:22 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:23:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:23:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:23:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:23:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:33:14 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 19:33:14 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:33:15 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 19:33:16 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:53:33 ip-172-31-27-172 wsjt-message[1973]: 272
+Feb 01 19:53:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 19:53:34 ip-172-31-27-172 wsjt-message[1973]: 272
+Feb 01 19:53:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:01:41 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:01:41 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:03:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:03:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:05:03 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:05:04 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:05:51 ip-172-31-27-172 wsjt-message[1973]: 95
+Feb 01 20:05:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:05:51 ip-172-31-27-172 wsjt-message[1973]: 95
+Feb 01 20:05:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:06:21 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:06:21 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:07:34 ip-172-31-27-172 wsjt-message[1973]: 70
+Feb 01 20:07:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:07:34 ip-172-31-27-172 wsjt-message[1973]: 70
+Feb 01 20:07:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:08:09 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 20:08:09 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:09:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:09:47 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:11:17 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:11:17 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:12:35 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:12:35 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:13:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:13:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:14:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:14:02 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:14:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:14:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:16:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:16:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:17:32 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:17:32 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:19:42 ip-172-31-27-172 wsjt-message[1973]: 108
+Feb 01 20:19:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:19:42 ip-172-31-27-172 wsjt-message[1973]: 108
+Feb 01 20:19:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:23:35 ip-172-31-27-172 wsjt-message[1973]: 6
+Feb 01 20:23:35 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:26:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:26:33 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:28:36 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 20:28:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:30:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:30:48 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:32:04 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:32:04 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:35:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:35:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:50:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:50:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:53:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:53:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:57:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:57:18 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:57:43 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 20:57:44 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:07:37 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:07:37 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:08:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:08:34 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:15:10 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:15:10 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:18:52 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:18:52 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:28:28 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:28:28 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:30:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:30:36 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:33:14 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:33:14 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:37:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:37:42 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:39:30 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 21:39:30 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:12:21 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:12:21 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:14:50 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 22:14:50 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:16:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:16:51 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:22:49 ip-172-31-27-172 wsjt-message[1973]: 70
+Feb 01 22:22:49 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:25:32 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:25:32 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:42:05 ip-172-31-27-172 wsjt-message[1973]: 1
+Feb 01 22:42:05 ip-172-31-27-172 wsjt-message[1973]: 291
+Feb 01 22:46:03 ip-172-31-27-172 wsjt-message[1973]: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+Feb 01 22:46:03 ip-172-31-27-172 wsjt-message[1973]:    at wsjt_message.Listener.Utils.QRZ.DCXXEntity(String callsign) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/QRZ.cs:line 56
+Feb 01 22:46:03 ip-172-31-27-172 wsjt-message[1973]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 145
+Feb 01 22:46:03 ip-172-31-27-172 wsjt-message[1973]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 215
+Feb 01 22:46:03 ip-172-31-27-172 wsjt-message[1973]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 248
+Feb 01 22:46:07 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 01 22:46:07 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 01 23:02:47 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 1.
+Feb 01 23:02:47 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 01 23:02:47 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: WSJT-X UDP Monitor
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: UDP Listen Port .: 2238
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: Little Endian....: True
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: Start Date UTC ..: 02/01/2021 23:02:47
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: Program adatped for FT8OFF by KD2FMW
+Feb 01 23:02:47 ip-172-31-27-172 wsjt-message[28584]: FT8OFF Is ready to start receiving packets
+Feb 01 23:57:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 01 23:57:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:05:52 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:05:52 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:16:51 ip-172-31-27-172 wsjt-message[28584]: 108
+Feb 02 00:16:51 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:45:51 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:45:51 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:57:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 00:57:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 01:47:39 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 01:47:39 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:30:04 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:30:04 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:30:04 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:30:04 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:42:17 ip-172-31-27-172 wsjt-message[28584]: 294
+Feb 02 14:42:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:42:18 ip-172-31-27-172 wsjt-message[28584]: 294
+Feb 02 14:42:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:48:33 ip-172-31-27-172 wsjt-message[28584]: 66
+Feb 02 14:48:34 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:48:34 ip-172-31-27-172 wsjt-message[28584]: 66
+Feb 02 14:48:34 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:51:39 ip-172-31-27-172 wsjt-message[28584]: 1
+Feb 02 14:51:39 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 14:51:39 ip-172-31-27-172 wsjt-message[28584]: 1
+Feb 02 14:51:39 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 15:07:53 ip-172-31-27-172 wsjt-message[28584]: 281
+Feb 02 15:07:53 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 15:10:08 ip-172-31-27-172 wsjt-message[28584]: 281
+Feb 02 15:10:08 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 17:17:40 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 17:17:40 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 17:31:42 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 17:31:42 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 17:35:50 ip-172-31-27-172 wsjt-message[28584]: 227
+Feb 02 17:35:50 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 20:49:16 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 20:49:16 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 20:49:17 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 20:49:17 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:10:34 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:10:34 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:14:03 ip-172-31-27-172 wsjt-message[28584]: 70
+Feb 02 21:14:03 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:15:18 ip-172-31-27-172 wsjt-message[28584]: 70
+Feb 02 21:15:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:18:05 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:18:05 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:22:19 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:22:19 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:30:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:30:18 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 21:58:03 ip-172-31-27-172 wsjt-message[28584]: 202
+Feb 02 21:58:03 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 02 22:02:13 ip-172-31-27-172 wsjt-message[28584]: 70
+Feb 02 22:02:13 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:25:06 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:25:06 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:27:44 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:27:44 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:32:02 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 01:32:03 ip-172-31-27-172 wsjt-message[28584]: 291
+Feb 03 13:22:35 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 03 13:22:35 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 03 13:22:35 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 03 13:22:35 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Feb 03 13:24:43 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: WSJT-X UDP Monitor
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: UDP Listen Port .: 2238
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: Little Endian....: True
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: Start Date UTC ..: 02/03/2021 13:24:44
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: Program adatped for FT8OFF by KD2FMW
+Feb 03 13:24:44 ip-172-31-27-172 wsjt-message[518]: FT8OFF Is ready to start receiving packets
+Feb 03 14:54:47 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 14:54:47 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 14:55:48 ip-172-31-27-172 wsjt-message[518]: 227
+Feb 03 14:55:48 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 14:56:49 ip-172-31-27-172 wsjt-message[518]: 230
+Feb 03 14:56:49 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 14:59:19 ip-172-31-27-172 wsjt-message[518]: 230
+Feb 03 14:59:19 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 15:03:51 ip-172-31-27-172 wsjt-message[518]: 284
+Feb 03 15:03:51 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 15:27:50 ip-172-31-27-172 wsjt-message[518]: 227
+Feb 03 15:27:50 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 15:42:34 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 15:42:34 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 16:04:48 ip-172-31-27-172 wsjt-message[518]: 120
+Feb 03 16:04:49 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 17:16:32 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 17:16:32 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 17:16:32 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 17:16:32 ip-172-31-27-172 wsjt-message[518]: 291
+Feb 03 17:52:27 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 03 17:52:27 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 03 17:52:27 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 03 17:52:27 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Feb 03 17:54:44 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: WSJT-X UDP Monitor
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: UDP Listen Port .: 2238
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: Little Endian....: True
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: Start Date UTC ..: 02/03/2021 17:54:45
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: Program adatped for FT8OFF by KD2FMW
+Feb 03 17:54:45 ip-172-31-27-172 wsjt-message[516]: FT8OFF Is ready to start receiving packets
+Feb 03 18:46:51 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 18:46:51 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 18:46:51 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 18:46:52 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 19:28:23 ip-172-31-27-172 wsjt-message[516]: 499
+Feb 03 19:28:23 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 19:28:23 ip-172-31-27-172 wsjt-message[516]: 499
+Feb 03 19:28:23 ip-172-31-27-172 wsjt-message[516]: 291
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]: Unhandled exception. System.FormatException: Input string was not in a correct format.
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]:    at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]:    at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 108
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 215
+Feb 03 19:37:07 ip-172-31-27-172 wsjt-message[516]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 248
+Feb 03 19:37:08 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 03 19:37:08 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 03 19:53:08 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Feb 03 19:54:03 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: WSJT-X UDP Monitor
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: UDP Listen Port .: 2238
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: Little Endian....: True
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: Start Date UTC ..: 02/03/2021 19:54:04
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: Program adatped for FT8OFF by KD2FMW
+Feb 03 19:54:04 ip-172-31-27-172 wsjt-message[519]: FT8OFF Is ready to start receiving packets
+Feb 03 19:57:33 ip-172-31-27-172 wsjt-message[519]: 1
+Feb 03 19:57:33 ip-172-31-27-172 wsjt-message[519]: 291
+Feb 03 20:26:06 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 03 20:26:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 03 20:26:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 03 20:26:06 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 03 20:26:11 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: WSJT-X UDP Monitor
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: UDP Listen Port .: 2238
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: Little Endian....: True
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: Start Date UTC ..: 02/03/2021 20:26:11
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: Program adatped for FT8OFF by KD2FMW
+Feb 03 20:26:11 ip-172-31-27-172 wsjt-message[3231]: FT8OFF Is ready to start receiving packets
+Feb 03 20:26:25 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 03 20:26:25 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 03 20:26:25 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 03 20:26:25 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 03 20:26:36 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: WSJT-X UDP Monitor
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: UDP Listen Port .: 2238
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: Little Endian....: True
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: Start Date UTC ..: 02/03/2021 20:26:36
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: Program adatped for FT8OFF by KD2FMW
+Feb 03 20:26:36 ip-172-31-27-172 wsjt-message[3285]: FT8OFF Is ready to start receiving packets
+Feb 03 20:54:12 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 03 20:54:12 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 03 20:54:12 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 03 20:54:12 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 03 20:54:29 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: WSJT-X UDP Monitor
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: UDP Listen Port .: 2238
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: Little Endian....: True
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: Start Date UTC ..: 02/03/2021 20:54:29
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: Program adatped for FT8OFF by KD2FMW
+Feb 03 20:54:29 ip-172-31-27-172 wsjt-message[4363]: FT8OFF Is ready to start receiving packets
+Feb 03 21:05:56 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 21:05:56 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 21:05:56 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 21:05:57 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 21:47:21 ip-172-31-27-172 wsjt-message[4363]: 88
+Feb 03 21:47:21 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 21:47:21 ip-172-31-27-172 wsjt-message[4363]: 88
+Feb 03 21:47:21 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 23:12:52 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 23:12:52 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 23:28:18 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 03 23:28:18 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 00:09:31 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 00:09:31 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 00:12:00 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 00:12:00 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 00:38:22 ip-172-31-27-172 wsjt-message[4363]: 202
+Feb 04 00:38:22 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:00:34 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:00:34 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:02:35 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:02:35 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:06:11 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:06:11 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:12:34 ip-172-31-27-172 wsjt-message[4363]: 70
+Feb 04 01:12:34 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:15:48 ip-172-31-27-172 wsjt-message[4363]: 72
+Feb 04 01:15:48 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:17:19 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:17:19 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:18:48 ip-172-31-27-172 wsjt-message[4363]: 1
+Feb 04 01:18:48 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:34:57 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:34:57 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:37:33 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:37:34 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:52:49 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 01:52:49 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:13:59 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:13:59 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:16:40 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:16:40 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:19:03 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 05:19:03 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 06:08:20 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 06:08:20 ip-172-31-27-172 wsjt-message[4363]: 291
+Feb 04 15:20:36 ip-172-31-27-172 wsjt-message[4363]: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+Feb 04 15:20:36 ip-172-31-27-172 wsjt-message[4363]:    at wsjt_message.Listener.Utils.QRZ.DCXXEntity(String callsign) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/QRZ.cs:line 61
+Feb 04 15:20:36 ip-172-31-27-172 wsjt-message[4363]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 147
+Feb 04 15:20:36 ip-172-31-27-172 wsjt-message[4363]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 215
+Feb 04 15:20:36 ip-172-31-27-172 wsjt-message[4363]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 248
+Feb 04 15:20:36 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 04 15:20:36 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 04 15:37:16 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 1.
+Feb 04 15:37:16 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 04 15:37:16 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: WSJT-X UDP Monitor
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: UDP Listen Port .: 2238
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: Little Endian....: True
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: Start Date UTC ..: 02/04/2021 15:37:17
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: Program adatped for FT8OFF by KD2FMW
+Feb 04 15:37:17 ip-172-31-27-172 wsjt-message[12694]: FT8OFF Is ready to start receiving packets
+Feb 04 15:37:33 ip-172-31-27-172 wsjt-message[12694]: 248
+Feb 04 15:37:34 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 16:46:28 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 16:46:28 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 16:57:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 16:57:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:00:35 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:00:35 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:04:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:04:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:24:55 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 17:24:55 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 21:45:29 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 21:45:29 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:18:38 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:18:38 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:22:50 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:22:50 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:24:48 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:24:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:24:51 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 22:24:52 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:24:53 ip-172-31-27-172 wsjt-message[12694]: 108
+Feb 04 22:24:53 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:27:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:27:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:28:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:28:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:29:19 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:29:19 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:29:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:29:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:30:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:30:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:30:02 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:30:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:33:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:33:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:34:44 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:34:44 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:34:55 ip-172-31-27-172 wsjt-message[12694]: 281
+Feb 04 22:34:55 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:36:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:36:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:06 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:06 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:15 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:15 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:35 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:37:35 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:38:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:38:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:38:45 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:38:45 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:39:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:39:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:39:47 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 22:39:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:40:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:40:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:40:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:40:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:04 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:04 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:41:33 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:42:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:42:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:24 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:24 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:30 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:30 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:43:37 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:15 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:16 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:18 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:45:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:32 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 22:45:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:45:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:47:18 ip-172-31-27-172 wsjt-message[12694]: 15
+Feb 04 22:47:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:47:45 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:47:45 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:48:36 ip-172-31-27-172 wsjt-message[12694]: 202
+Feb 04 22:48:36 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:48:50 ip-172-31-27-172 wsjt-message[12694]: 112
+Feb 04 22:48:50 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:49:05 ip-172-31-27-172 wsjt-message[12694]: 248
+Feb 04 22:49:05 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:49:48 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 22:49:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:50:18 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 22:50:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:10 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:10 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:19 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:19 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:22 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:22 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:51:38 ip-172-31-27-172 wsjt-message[12694]: 248
+Feb 04 22:51:38 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:52:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:52:00 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:52:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:52:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:53:46 ip-172-31-27-172 wsjt-message[12694]: 110
+Feb 04 22:53:46 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:54:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:54:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:54:54 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:54:55 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:55:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:55:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:55:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:55:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:55:32 ip-172-31-27-172 wsjt-message[12694]: 296
+Feb 04 22:55:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:04 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:04 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:32 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:57:49 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:57:49 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:58:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:58:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:58:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:58:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:58:49 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 22:58:49 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:59:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 22:59:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:00:03 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:00:03 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:00:47 ip-172-31-27-172 wsjt-message[12694]: 116
+Feb 04 23:00:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:01:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:01:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:01:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:01:48 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:02:23 ip-172-31-27-172 wsjt-message[12694]: 248
+Feb 04 23:02:23 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:03:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:03:47 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:04:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:04:02 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:04:16 ip-172-31-27-172 wsjt-message[12694]: 70
+Feb 04 23:04:16 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:04:25 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:04:25 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:05:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:05:01 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:06:18 ip-172-31-27-172 wsjt-message[12694]: 339
+Feb 04 23:06:18 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:06:30 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:06:30 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]: 1
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]: 291
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]:    at wsjt_message.Listener.Utils.QRZ.DCXXEntity(String callsign) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/QRZ.cs:line 61
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 147
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 215
+Feb 04 23:07:17 ip-172-31-27-172 wsjt-message[12694]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 248
+Feb 04 23:07:18 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 04 23:07:18 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 04 23:23:58 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 2.
+Feb 04 23:23:58 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 04 23:23:58 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: WSJT-X UDP Monitor
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: UDP Listen Port .: 2238
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: Little Endian....: True
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: Start Date UTC ..: 02/04/2021 23:23:59
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: Program adatped for FT8OFF by KD2FMW
+Feb 04 23:23:59 ip-172-31-27-172 wsjt-message[16644]: FT8OFF Is ready to start receiving packets
+Feb 04 23:28:21 ip-172-31-27-172 wsjt-message[16644]: 281
+Feb 04 23:28:21 ip-172-31-27-172 wsjt-message[16644]: 291
+Feb 04 23:39:47 ip-172-31-27-172 wsjt-message[16644]: 237
+Feb 04 23:39:47 ip-172-31-27-172 wsjt-message[16644]: 291
+Feb 04 23:48:16 ip-172-31-27-172 wsjt-message[16644]: 122
+Feb 04 23:48:17 ip-172-31-27-172 wsjt-message[16644]: 291
+Feb 04 23:52:02 ip-172-31-27-172 wsjt-message[16644]: 215
+Feb 04 23:52:02 ip-172-31-27-172 wsjt-message[16644]: 291
+Feb 04 23:55:33 ip-172-31-27-172 wsjt-message[16644]: 62
+Feb 04 23:55:33 ip-172-31-27-172 wsjt-message[16644]: 291
+Feb 05 00:20:45 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 05 00:20:45 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 05 00:20:45 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 05 00:20:45 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+-- Reboot --
+Feb 05 00:21:42 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: WSJT-X UDP Monitor
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: UDP Listen Port .: 2238
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: Little Endian....: True
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: Start Date UTC ..: 02/05/2021 00:21:42
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: Program adatped for FT8OFF by KD2FMW
+Feb 05 00:21:42 ip-172-31-27-172 wsjt-message[517]: FT8OFF Is ready to start receiving packets
+Feb 05 00:36:36 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 00:36:36 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 00:55:33 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 00:55:33 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 01:06:06 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 01:06:06 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 01:10:16 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 01:10:16 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 03:00:06 ip-172-31-27-172 wsjt-message[517]: 50
+Feb 05 03:00:06 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 03:09:49 ip-172-31-27-172 wsjt-message[517]: 50
+Feb 05 03:09:49 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 03:51:10 ip-172-31-27-172 wsjt-message[517]: 112
+Feb 05 03:51:10 ip-172-31-27-172 wsjt-message[517]: 291
+Feb 05 05:32:17 ip-172-31-27-172 wsjt-message[517]: Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+Feb 05 05:32:17 ip-172-31-27-172 wsjt-message[517]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 51
+Feb 05 05:32:17 ip-172-31-27-172 wsjt-message[517]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 191
+Feb 05 05:32:17 ip-172-31-27-172 wsjt-message[517]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 248
+Feb 05 05:32:18 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 05:32:18 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 05:48:58 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 1.
+Feb 05 05:48:58 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 05:48:58 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: WSJT-X UDP Monitor
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: UDP Listen Port .: 2238
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: Little Endian....: True
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: Start Date UTC ..: 02/05/2021 05:48:58
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: Program adatped for FT8OFF by KD2FMW
+Feb 05 05:48:58 ip-172-31-27-172 wsjt-message[3596]: FT8OFF Is ready to start receiving packets
+Feb 05 05:59:30 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 05 05:59:30 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 05 05:59:30 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 05 05:59:30 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 05:59:40 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: WSJT-X UDP Monitor
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: UDP Listen Port .: 2238
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: Little Endian....: True
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: Start Date UTC ..: 02/05/2021 05:59:40
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: Program adatped for FT8OFF by KD2FMW
+Feb 05 05:59:40 ip-172-31-27-172 wsjt-message[3667]: FT8OFF Is ready to start receiving packets
+Feb 05 06:01:54 ip-172-31-27-172 wsjt-message[3667]: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+Feb 05 06:01:54 ip-172-31-27-172 wsjt-message[3667]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 58
+Feb 05 06:01:54 ip-172-31-27-172 wsjt-message[3667]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 190
+Feb 05 06:01:54 ip-172-31-27-172 wsjt-message[3667]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 247
+Feb 05 06:01:55 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 06:01:55 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 06:18:35 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 1.
+Feb 05 06:18:35 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 06:18:35 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: WSJT-X UDP Monitor
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: UDP Listen Port .: 2238
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: Little Endian....: True
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: Start Date UTC ..: 02/05/2021 06:18:35
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: Program adatped for FT8OFF by KD2FMW
+Feb 05 06:18:35 ip-172-31-27-172 wsjt-message[3821]: FT8OFF Is ready to start receiving packets
+Feb 05 06:19:32 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 05 06:19:32 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 05 06:19:32 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 05 06:19:32 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 06:19:38 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: WSJT-X UDP Monitor
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: UDP Listen Port .: 2238
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: Little Endian....: True
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: Start Date UTC ..: 02/05/2021 06:19:38
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: Program adatped for FT8OFF by KD2FMW
+Feb 05 06:19:38 ip-172-31-27-172 wsjt-message[3874]: FT8OFF Is ready to start receiving packets
+Feb 05 06:20:02 ip-172-31-27-172 wsjt-message[3874]: Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+Feb 05 06:20:02 ip-172-31-27-172 wsjt-message[3874]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 51
+Feb 05 06:20:02 ip-172-31-27-172 wsjt-message[3874]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 190
+Feb 05 06:20:02 ip-172-31-27-172 wsjt-message[3874]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 247
+Feb 05 06:20:02 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 06:20:02 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 06:36:15 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 06:36:24 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: WSJT-X UDP Monitor
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: UDP Listen Port .: 2238
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: Little Endian....: True
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: Start Date UTC ..: 02/05/2021 06:36:25
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: Program adatped for FT8OFF by KD2FMW
+Feb 05 06:36:25 ip-172-31-27-172 wsjt-message[4078]: FT8OFF Is ready to start receiving packets
+Feb 05 06:37:55 ip-172-31-27-172 wsjt-message[4078]: Unhandled exception. System.IndexOutOfRangeException: Index was outside the bounds of the array.
+Feb 05 06:37:55 ip-172-31-27-172 wsjt-message[4078]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 51
+Feb 05 06:37:55 ip-172-31-27-172 wsjt-message[4078]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 190
+Feb 05 06:37:55 ip-172-31-27-172 wsjt-message[4078]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 247
+Feb 05 06:37:56 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 06:37:56 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 06:38:09 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 06:38:12 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: WSJT-X UDP Monitor
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: UDP Listen Port .: 2238
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: Little Endian....: True
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: Start Date UTC ..: 02/05/2021 06:38:12
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: Program adatped for FT8OFF by KD2FMW
+Feb 05 06:38:12 ip-172-31-27-172 wsjt-message[4138]: FT8OFF Is ready to start receiving packets
+Feb 05 06:49:27 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 05 06:49:27 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 05 06:49:27 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 05 06:49:27 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 06:50:46 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: WSJT-X UDP Monitor
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: UDP Listen Port .: 2238
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: Little Endian....: True
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: Start Date UTC ..: 02/05/2021 06:50:46
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: Program adatped for FT8OFF by KD2FMW
+Feb 05 06:50:46 ip-172-31-27-172 wsjt-message[4296]: FT8OFF Is ready to start receiving packets
+Feb 05 13:25:02 ip-172-31-27-172 wsjt-message[4296]: KZ4ZZ
+Feb 05 13:25:02 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 13:46:22 ip-172-31-27-172 wsjt-message[4296]: W2BCC
+Feb 05 13:46:22 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 13:48:18 ip-172-31-27-172 wsjt-message[4296]: KE5EUA
+Feb 05 13:48:18 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 13:50:30 ip-172-31-27-172 wsjt-message[4296]: N1UL
+Feb 05 13:50:30 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 13:51:48 ip-172-31-27-172 wsjt-message[4296]: K9MDI
+Feb 05 13:51:48 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 13:58:04 ip-172-31-27-172 wsjt-message[4296]: KC3HLT
+Feb 05 13:58:04 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 14:07:19 ip-172-31-27-172 wsjt-message[4296]: N4NDR
+Feb 05 14:07:19 ip-172-31-27-172 wsjt-message[4296]: K9LRG
+Feb 05 14:34:45 ip-172-31-27-172 systemd[1]: Stopping wsjt-message app...
+Feb 05 14:34:45 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=exited, status=143/n/a
+Feb 05 14:34:45 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'exit-code'.
+Feb 05 14:34:45 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 14:35:00 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: WSJT-X UDP Monitor
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: UDP Listen Port .: 2238
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: Little Endian....: True
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: Start Date UTC ..: 02/05/2021 14:35:01
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: Program adatped for FT8OFF by KD2FMW
+Feb 05 14:35:01 ip-172-31-27-172 wsjt-message[7402]: FT8OFF Is ready to start receiving packets
+Feb 05 14:39:04 ip-172-31-27-172 wsjt-message[7402]: WA2JQZ  291
+Feb 05 14:39:04 ip-172-31-27-172 wsjt-message[7402]: K9LRG  291
+Feb 05 14:40:33 ip-172-31-27-172 wsjt-message[7402]: N1RPH  291
+Feb 05 14:40:34 ip-172-31-27-172 wsjt-message[7402]: K9LRG  291
+Feb 05 14:43:24 ip-172-31-27-172 wsjt-message[7402]: N5VX  291
+Feb 05 14:43:25 ip-172-31-27-172 wsjt-message[7402]: K9LRG  291
+Feb 05 14:45:05 ip-172-31-27-172 wsjt-message[7402]: VE3JI  1
+Feb 05 14:45:05 ip-172-31-27-172 wsjt-message[7402]: K9LRG  291
+Feb 05 14:51:03 ip-172-31-27-172 wsjt-message[7402]: K9ZA  291
+Feb 05 14:51:03 ip-172-31-27-172 wsjt-message[7402]: K9LRG  291
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]: Unhandled exception. MySql.Data.MySqlClient.MySqlException (0x80004005): Column count doesn't match value count at row 1
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at wsjt_message.Listener.Utils.DataBase.DBADIFRaw(String adif) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 231
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 230
+Feb 05 15:00:05 ip-172-31-27-172 wsjt-message[7402]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 262
+Feb 05 15:00:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 15:00:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 15:16:46 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 1.
+Feb 05 15:16:46 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 15:16:46 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: WSJT-X UDP Monitor
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: UDP Listen Port .: 2238
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: Little Endian....: True
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: Start Date UTC ..: 02/05/2021 15:16:46
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: Program adatped for FT8OFF by KD2FMW
+Feb 05 15:16:46 ip-172-31-27-172 wsjt-message[7839]: FT8OFF Is ready to start receiving packets
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]: Unhandled exception. MySql.Data.MySqlClient.MySqlException (0x80004005): Column count doesn't match value count at row 1
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at wsjt_message.Listener.Utils.DataBase.DBADIFRaw(String adif) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 231
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 230
+Feb 05 15:19:39 ip-172-31-27-172 wsjt-message[7839]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 262
+Feb 05 15:19:39 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 15:19:39 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 15:36:20 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 2.
+Feb 05 15:36:20 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 15:36:20 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: WSJT-X UDP Monitor
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: UDP Listen Port .: 2238
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: Little Endian....: True
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: Start Date UTC ..: 02/05/2021 15:36:20
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: Program adatped for FT8OFF by KD2FMW
+Feb 05 15:36:20 ip-172-31-27-172 wsjt-message[7950]: FT8OFF Is ready to start receiving packets
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]: Unhandled exception. MySql.Data.MySqlClient.MySqlException (0x80004005): Column count doesn't match value count at row 1
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at wsjt_message.Listener.Utils.DataBase.DBADIFRaw(String adif) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 231
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 230
+Feb 05 15:47:05 ip-172-31-27-172 wsjt-message[7950]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 262
+Feb 05 15:47:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 15:47:06 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 16:03:46 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 3.
+Feb 05 16:03:46 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 16:03:46 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: WSJT-X UDP Monitor
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: UDP Listen Port .: 2238
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: Little Endian....: True
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: Start Date UTC ..: 02/05/2021 16:03:46
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: Program adatped for FT8OFF by KD2FMW
+Feb 05 16:03:46 ip-172-31-27-172 wsjt-message[8128]: FT8OFF Is ready to start receiving packets
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]: Unhandled exception. MySql.Data.MySqlClient.MySqlException (0x80004005): Column count doesn't match value count at row 1
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at wsjt_message.Listener.Utils.DataBase.DBADIFRaw(String adif) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 231
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 230
+Feb 05 16:17:33 ip-172-31-27-172 wsjt-message[8128]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 262
+Feb 05 16:17:34 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 05 16:17:34 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 05 16:26:47 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 05 16:28:41 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: WSJT-X UDP Monitor
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: UDP Listen Port .: 2238
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: Little Endian....: True
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: Start Date UTC ..: 02/05/2021 16:28:41
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: Program adatped for FT8OFF by KD2FMW
+Feb 05 16:28:41 ip-172-31-27-172 wsjt-message[8314]: FT8OFF Is ready to start receiving packets
+Feb 05 16:49:25 ip-172-31-27-172 wsjt-message[8314]: N3MK  291
+Feb 05 16:49:25 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 16:52:51 ip-172-31-27-172 wsjt-message[8314]: VE3VAI  1
+Feb 05 16:52:51 ip-172-31-27-172 wsjt-message[8314]: KD2FMW  291
+Feb 05 16:53:07 ip-172-31-27-172 wsjt-message[8314]: VA1RJR  1
+Feb 05 16:53:08 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 16:54:33 ip-172-31-27-172 wsjt-message[8314]: K8TE  291
+Feb 05 16:54:33 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 16:57:02 ip-172-31-27-172 wsjt-message[8314]: VE2ENN  1
+Feb 05 16:57:03 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 17:05:34 ip-172-31-27-172 wsjt-message[8314]: AA2T  291
+Feb 05 17:05:34 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 17:08:33 ip-172-31-27-172 wsjt-message[8314]: KB6LG  291
+Feb 05 17:08:33 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 17:10:34 ip-172-31-27-172 wsjt-message[8314]: WA1LNY  291
+Feb 05 17:10:34 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:29:06 ip-172-31-27-172 wsjt-message[8314]: KG4IXS  291
+Feb 05 18:29:06 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:33:20 ip-172-31-27-172 wsjt-message[8314]: KP4LR  202
+Feb 05 18:33:20 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:35:50 ip-172-31-27-172 wsjt-message[8314]: KK4BK  291
+Feb 05 18:35:50 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:37:47 ip-172-31-27-172 wsjt-message[8314]: N3GX  291
+Feb 05 18:37:47 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:43:23 ip-172-31-27-172 wsjt-message[8314]: KK4BK  291
+Feb 05 18:43:23 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 18:45:02 ip-172-31-27-172 wsjt-message[8314]: CE1PTT  112
+Feb 05 18:45:03 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 19:31:34 ip-172-31-27-172 wsjt-message[8314]: CX2SA  144
+Feb 05 19:31:34 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 20:00:21 ip-172-31-27-172 wsjt-message[8314]: AE4WG  291
+Feb 05 20:00:22 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 20:07:47 ip-172-31-27-172 wsjt-message[8314]: KI0J  291
+Feb 05 20:07:47 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 20:13:48 ip-172-31-27-172 wsjt-message[8314]: CO8LY  70
+Feb 05 20:13:48 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 20:24:48 ip-172-31-27-172 wsjt-message[8314]: AG5XI  291
+Feb 05 20:24:48 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 21:56:10 ip-172-31-27-172 wsjt-message[8314]: KA1ANW  291
+Feb 05 21:56:10 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 22:09:38 ip-172-31-27-172 wsjt-message[8314]: JA7QVI  339
+Feb 05 22:09:38 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 22:34:49 ip-172-31-27-172 wsjt-message[8314]: KR6MR  291
+Feb 05 22:34:49 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 05 23:52:20 ip-172-31-27-172 wsjt-message[8314]: XE2NK  50
+Feb 05 23:52:20 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 06 00:09:23 ip-172-31-27-172 wsjt-message[8314]: HK6JCF  116
+Feb 06 00:09:23 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 06 12:25:22 ip-172-31-27-172 wsjt-message[8314]: IK7VJZ  248
+Feb 06 12:25:22 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 06 12:26:19 ip-172-31-27-172 wsjt-message[8314]: JA7OUV  339
+Feb 06 12:26:19 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 06 12:40:03 ip-172-31-27-172 wsjt-message[8314]: KD2RWC  291
+Feb 06 12:40:04 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 06 12:45:33 ip-172-31-27-172 wsjt-message[8314]: KD4VRY  291
+Feb 06 12:45:33 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 06 12:50:34 ip-172-31-27-172 wsjt-message[8314]: WA8QYJ  291
+Feb 06 12:50:34 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 07 00:26:52 ip-172-31-27-172 wsjt-message[8314]: W1FKF  291
+Feb 07 00:26:52 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 11:17:34 ip-172-31-27-172 wsjt-message[8314]: AA1ON  291
+Feb 07 11:17:34 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:10:18 ip-172-31-27-172 wsjt-message[8314]: VE3NLW  1
+Feb 07 12:10:18 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:12:51 ip-172-31-27-172 wsjt-message[8314]: KO4CAA  291
+Feb 07 12:12:51 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:15:32 ip-172-31-27-172 wsjt-message[8314]: VE3EJP  1
+Feb 07 12:15:32 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:17:50 ip-172-31-27-172 wsjt-message[8314]: AA2MF  291
+Feb 07 12:17:50 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:21:28 ip-172-31-27-172 wsjt-message[8314]: KE5HDE  291
+Feb 07 12:21:28 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:41:49 ip-172-31-27-172 wsjt-message[8314]: VA3BJD  1
+Feb 07 12:41:49 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 12:54:19 ip-172-31-27-172 wsjt-message[8314]: W5TMK  291
+Feb 07 12:54:19 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 16:30:06 ip-172-31-27-172 wsjt-message[8314]: NK1I  291
+Feb 07 16:30:06 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 16:44:44 ip-172-31-27-172 wsjt-message[8314]: KA3ZZS  291
+Feb 07 16:44:44 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:21:26 ip-172-31-27-172 wsjt-message[8314]: KI1P  291
+Feb 07 17:21:26 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:23:48 ip-172-31-27-172 wsjt-message[8314]: VE3VKR  1
+Feb 07 17:23:48 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:26:18 ip-172-31-27-172 wsjt-message[8314]: KB2EJU  291
+Feb 07 17:26:18 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:29:20 ip-172-31-27-172 wsjt-message[8314]: W4FGA  291
+Feb 07 17:29:20 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:35:24 ip-172-31-27-172 wsjt-message[8314]: KC4SM  291
+Feb 07 17:35:24 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:42:06 ip-172-31-27-172 wsjt-message[8314]: K9RS  291
+Feb 07 17:42:06 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:47:00 ip-172-31-27-172 wsjt-message[8314]: N1GB  291
+Feb 07 17:47:00 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:49:17 ip-172-31-27-172 wsjt-message[8314]: KU1P  291
+Feb 07 17:49:17 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:53:01 ip-172-31-27-172 wsjt-message[8314]: WD8BWF  291
+Feb 07 17:53:01 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 17:55:52 ip-172-31-27-172 wsjt-message[8314]: NQ1B  291
+Feb 07 17:55:52 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 18:00:03 ip-172-31-27-172 wsjt-message[8314]: WD4IXD  291
+Feb 07 18:00:03 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 19:06:28 ip-172-31-27-172 wsjt-message[8314]: CM2IU  70
+Feb 07 19:06:28 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 07 20:53:23 ip-172-31-27-172 wsjt-message[8314]: WB3HYZ  291
+Feb 07 20:53:23 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 20:56:03 ip-172-31-27-172 wsjt-message[8314]: KC1HXR  291
+Feb 07 20:56:03 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:00:58 ip-172-31-27-172 wsjt-message[8314]: W4IOE  291
+Feb 07 21:00:58 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:02:29 ip-172-31-27-172 wsjt-message[8314]: W5JZO  291
+Feb 07 21:02:29 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:06:04 ip-172-31-27-172 wsjt-message[8314]: N0MHL  291
+Feb 07 21:06:04 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:14:08 ip-172-31-27-172 wsjt-message[8314]: KW8I  291
+Feb 07 21:14:08 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:17:28 ip-172-31-27-172 wsjt-message[8314]: WD8JP  291
+Feb 07 21:17:28 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:22:10 ip-172-31-27-172 wsjt-message[8314]: KF0CBP  291
+Feb 07 21:22:10 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:23:03 ip-172-31-27-172 wsjt-message[8314]: AD4ET  291
+Feb 07 21:23:03 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:28:47 ip-172-31-27-172 wsjt-message[8314]: VE3XTD  1
+Feb 07 21:28:47 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:37:28 ip-172-31-27-172 wsjt-message[8314]: KD9OQK  291
+Feb 07 21:37:28 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 07 21:43:24 ip-172-31-27-172 wsjt-message[8314]: NX9G  291
+Feb 07 21:43:24 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 00:33:26 ip-172-31-27-172 wsjt-message[8314]: N7IVV  291
+Feb 08 00:33:27 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 00:40:47 ip-172-31-27-172 wsjt-message[8314]: VA3LU  1
+Feb 08 00:40:47 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 08 00:42:48 ip-172-31-27-172 wsjt-message[8314]: WV8EDU  291
+Feb 08 00:42:48 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 08 00:52:14 ip-172-31-27-172 wsjt-message[8314]: N3XLS  291
+Feb 08 00:52:14 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 08 00:54:49 ip-172-31-27-172 wsjt-message[8314]: CO2ER  70
+Feb 08 00:54:49 ip-172-31-27-172 wsjt-message[8314]: N8TIN  291
+Feb 08 01:20:07 ip-172-31-27-172 wsjt-message[8314]: K2TW  291
+Feb 08 01:20:07 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 01:22:03 ip-172-31-27-172 wsjt-message[8314]: KC3LOJ  291
+Feb 08 01:22:03 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 03:10:22 ip-172-31-27-172 wsjt-message[8314]: YV6BXN  148
+Feb 08 03:10:22 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 08 11:12:27 ip-172-31-27-172 wsjt-message[8314]: KD4YDD  291
+Feb 08 11:12:27 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 11:36:22 ip-172-31-27-172 wsjt-message[8314]: AC4ZH  291
+Feb 08 11:36:22 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 11:38:06 ip-172-31-27-172 wsjt-message[8314]: N4BP  291
+Feb 08 11:38:06 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 11:42:18 ip-172-31-27-172 wsjt-message[8314]: KV0X  291
+Feb 08 11:42:18 ip-172-31-27-172 wsjt-message[8314]: W5IPA  291
+Feb 08 13:36:37 ip-172-31-27-172 wsjt-message[8314]: 6Y5DQ  82
+Feb 08 13:36:37 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 13:44:05 ip-172-31-27-172 wsjt-message[8314]: HC1KX  120
+Feb 08 13:44:05 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:04:35 ip-172-31-27-172 wsjt-message[8314]: N3CMH  291
+Feb 08 14:04:36 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:08:33 ip-172-31-27-172 wsjt-message[8314]: IV3FSG  248
+Feb 08 14:08:33 ip-172-31-27-172 wsjt-message[8314]: N5SKT  291
+Feb 08 14:21:46 ip-172-31-27-172 wsjt-message[8314]: W8HAW  291
+Feb 08 14:21:46 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:23:33 ip-172-31-27-172 wsjt-message[8314]: KB5WCK  291
+Feb 08 14:23:33 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:29:45 ip-172-31-27-172 wsjt-message[8314]: KC5KE  291
+Feb 08 14:29:45 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:33:32 ip-172-31-27-172 wsjt-message[8314]: W8HAW  291
+Feb 08 14:33:32 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 14:35:34 ip-172-31-27-172 wsjt-message[8314]: K5YX  291
+Feb 08 14:35:34 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 15:26:19 ip-172-31-27-172 wsjt-message[8314]: NK0V  291
+Feb 08 15:26:19 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 15:34:36 ip-172-31-27-172 wsjt-message[8314]: N2LHW  291
+Feb 08 15:34:36 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 17:13:25 ip-172-31-27-172 wsjt-message[8314]: NE8AL  291
+Feb 08 17:13:25 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 17:26:22 ip-172-31-27-172 wsjt-message[8314]: EA8RH  29
+Feb 08 17:26:22 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 17:34:34 ip-172-31-27-172 wsjt-message[8314]: EA5YU  281
+Feb 08 17:34:34 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 17:49:49 ip-172-31-27-172 wsjt-message[8314]: WB6JHI  291
+Feb 08 17:49:49 ip-172-31-27-172 wsjt-message[8314]: K9LRG  291
+Feb 08 17:57:54 ip-172-31-27-172 wsjt-message[8314]: Unhandled exception. System.NullReferenceException: Object reference not set to an instance of an object.
+Feb 08 17:57:54 ip-172-31-27-172 wsjt-message[8314]:    at wsjt_message.Listener.Utils.QRZ.DCXXEntity(String callsign) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/QRZ.cs:line 63
+Feb 08 17:57:54 ip-172-31-27-172 wsjt-message[8314]:    at wsjt_message.Listener.Utils.DataBase.ADIFinsert(String[] adifout) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Utils/DBConnect.cs:line 147
+Feb 08 17:57:54 ip-172-31-27-172 wsjt-message[8314]:    at wsjt_message.Listener.Program.StartListener() in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 230
+Feb 08 17:57:54 ip-172-31-27-172 wsjt-message[8314]:    at wsjt_message.Listener.Program.Main(String[] args) in /mnt/c/Users/dan.TBS/source/repos/wsjt-message/Program.cs:line 262
+Feb 08 17:57:55 ip-172-31-27-172 systemd[1]: wsjt-message.service: Main process exited, code=dumped, status=6/ABRT
+Feb 08 17:57:55 ip-172-31-27-172 systemd[1]: wsjt-message.service: Failed with result 'core-dump'.
+Feb 08 18:14:35 ip-172-31-27-172 systemd[1]: wsjt-message.service: Scheduled restart job, restart counter is at 4.
+Feb 08 18:14:35 ip-172-31-27-172 systemd[1]: Stopped wsjt-message app.
+Feb 08 18:14:35 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: WSJT-X UDP Monitor
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: UDP Listen Port .: 2238
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: Little Endian....: True
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: Start Date UTC ..: 02/08/2021 18:14:36
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: Program adatped for FT8OFF by KD2FMW
+Feb 08 18:14:36 ip-172-31-27-172 wsjt-message[38964]: FT8OFF Is ready to start receiving packets
+Feb 08 18:53:49 ip-172-31-27-172 wsjt-message[38964]: N6KTA  291
+Feb 08 18:53:49 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 08 19:03:15 ip-172-31-27-172 wsjt-message[38964]: KE5UGA  291
+Feb 08 19:03:15 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 08 19:04:19 ip-172-31-27-172 wsjt-message[38964]: KA2BNY  291
+Feb 08 19:04:19 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 08 19:06:42 ip-172-31-27-172 wsjt-message[38964]: WC2F  291
+Feb 08 19:06:42 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 08 19:08:04 ip-172-31-27-172 wsjt-message[38964]: K2VUD  291
+Feb 08 19:08:04 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 08 19:15:20 ip-172-31-27-172 wsjt-message[38964]: VE2JI  1
+Feb 08 19:15:20 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 08 19:26:23 ip-172-31-27-172 wsjt-message[38964]: W1SRR  291
+Feb 08 19:26:23 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 08 20:00:19 ip-172-31-27-172 wsjt-message[38964]: KI7SRQ  291
+Feb 08 20:00:19 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 00:09:13 ip-172-31-27-172 wsjt-message[38964]: NE9U  291
+Feb 09 00:09:13 ip-172-31-27-172 wsjt-message[38964]: N8TIN  291
+Feb 09 00:17:51 ip-172-31-27-172 wsjt-message[38964]: KJ7DAD  291
+Feb 09 00:17:51 ip-172-31-27-172 wsjt-message[38964]: N8TIN  291
+Feb 09 00:32:32 ip-172-31-27-172 wsjt-message[38964]: CO7QC  70
+Feb 09 00:32:32 ip-172-31-27-172 wsjt-message[38964]: N8TIN  291
+Feb 09 00:41:29 ip-172-31-27-172 wsjt-message[38964]: WB8ZHU  291
+Feb 09 00:41:29 ip-172-31-27-172 wsjt-message[38964]: N8TIN  291
+Feb 09 00:51:47 ip-172-31-27-172 wsjt-message[38964]: LW2EIY  100
+Feb 09 00:51:47 ip-172-31-27-172 wsjt-message[38964]: N5SKT  291
+Feb 09 00:54:03 ip-172-31-27-172 wsjt-message[38964]: WN1U  291
+Feb 09 00:54:03 ip-172-31-27-172 wsjt-message[38964]: N8TIN  291
+Feb 09 14:04:20 ip-172-31-27-172 wsjt-message[38964]: AA4IB  291
+Feb 09 14:04:20 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 17:59:41 ip-172-31-27-172 wsjt-message[38964]: VE8CK  1
+Feb 09 17:59:41 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 18:01:52 ip-172-31-27-172 wsjt-message[38964]: W6RMC  291
+Feb 09 18:01:52 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 18:05:04 ip-172-31-27-172 wsjt-message[38964]: W1HS  291
+Feb 09 18:05:04 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 20:40:39 ip-172-31-27-172 wsjt-message[38964]: WB9SDD  291
+Feb 09 20:40:39 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 09 20:46:01 ip-172-31-27-172 wsjt-message[38964]: W1TKR  291
+Feb 09 20:46:01 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 09 20:50:19 ip-172-31-27-172 wsjt-message[38964]: W0BLE  291
+Feb 09 20:50:19 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 09 20:53:20 ip-172-31-27-172 wsjt-message[38964]: N9OY  291
+Feb 09 20:53:20 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 09 21:43:25 ip-172-31-27-172 wsjt-message[38964]: AG7KU  291
+Feb 09 21:43:25 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 21:46:04 ip-172-31-27-172 wsjt-message[38964]: KE6JNO  291
+Feb 09 21:46:04 ip-172-31-27-172 wsjt-message[38964]: KD2FMW  291
+Feb 09 22:04:34 ip-172-31-27-172 wsjt-message[38964]: WB5ZGA  291
+Feb 09 22:04:34 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 22:55:02 ip-172-31-27-172 wsjt-message[38964]: HC5EG  120
+Feb 09 22:55:02 ip-172-31-27-172 wsjt-message[38964]: K9LRG  291
+Feb 09 23:03:16 ip-172-31-27-172 wsjt-message[38964]: VA2WA  1
+Feb 09 23:03:17 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+Feb 09 23:06:16 ip-172-31-27-172 wsjt-message[38964]: KA1KA  291
+Feb 09 23:06:16 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+Feb 09 23:10:31 ip-172-31-27-172 wsjt-message[38964]: AC2KV  291
+Feb 09 23:10:31 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+Feb 09 23:12:04 ip-172-31-27-172 wsjt-message[38964]: AC2KV  291
+Feb 09 23:12:04 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+Feb 09 23:21:02 ip-172-31-27-172 wsjt-message[38964]: N9PGG  291
+Feb 09 23:21:02 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+Feb 09 23:31:18 ip-172-31-27-172 wsjt-message[38964]: W3IHP  291
+Feb 09 23:31:19 ip-172-31-27-172 wsjt-message[38964]: W5IPA  291
+-- Reboot --
+Feb 10 03:16:54 ip-172-31-27-172 systemd[1]: Started wsjt-message app.
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: WSJT-X UDP Monitor
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: UDP Listen Port .: 2238
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: Little Endian....: True
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: Start Date UTC ..: 02/10/2021 03:16:55
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: Program adatped for FT8OFF by KD2FMW
+Feb 10 03:16:55 ip-172-31-27-172 wsjt-message[532]: FT8OFF Is ready to start receiving packets
+Feb 10 17:24:34 ip-172-31-27-172 wsjt-message[532]: AC7QO  291
+Feb 10 17:24:34 ip-172-31-27-172 wsjt-message[532]: KD2FMW  291
+Feb 10 19:22:05 ip-172-31-27-172 wsjt-message[532]: KV9I  291
+Feb 10 19:22:05 ip-172-31-27-172 wsjt-message[532]: KD2FMW  291

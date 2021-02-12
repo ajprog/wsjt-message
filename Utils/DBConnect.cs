@@ -1,5 +1,6 @@
 using MySql.Data.MySqlClient;
 using System;
+using System.Linq;
 
 // ********************************************************
 // Database connector and Insert scripting custom generated
@@ -64,7 +65,7 @@ namespace wsjt_message.Listener.Utils
             string call = value[x];             //assign the calue for the field
             //STRING    gridsquare
             x = Array.IndexOf(colnm, "gridsquare");
-            string gridsquare = value[x];
+            string gridsquare=value[x];
             //STRING    mode
             x = Array.IndexOf(colnm, "mode");
             string mode = value[x];
@@ -105,6 +106,7 @@ namespace wsjt_message.Listener.Utils
             if (x > -1)
             {
                 tx_pwr = value[x];
+                tx_pwr=new String(tx_pwr.Where(char.IsDigit).ToArray());
                 if (Convert.ToInt32(tx_pwr) >= 1 && Convert.ToInt32(tx_pwr) <= 20) //Calculate the 1 point QRP bonus
                 {
                     is_qrp = 1;
@@ -155,7 +157,7 @@ namespace wsjt_message.Listener.Utils
             {
                 is_dx = 1;
             }
-            if (theircall==-1 || mycall==-1)
+            if (theircall==999 || mycall==999)
             {
                 is_dx = 0;
             }
@@ -219,7 +221,7 @@ namespace wsjt_message.Listener.Utils
         }
         public static void DBADIFRaw(string adif)
         {
-            string query = "INSERT INTO ft8adif VALUES(@rawadif)";
+            string query = "INSERT INTO ft8adif VALUES(default,@rawadif)";
             cmd = new MySqlCommand(query, conn);
             cmd.Parameters.AddWithValue("@rawadif", adif);
             cmd.ExecuteNonQuery();

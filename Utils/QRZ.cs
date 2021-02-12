@@ -8,9 +8,11 @@ using System.Xml.Linq;
 namespace wsjt_message.Listener.Utils
 {
     public class QRZ
+
+    /* A QRZ XML Membership is required for use of this listener with */
     {
         static string qrzkey;
-        static readonly string qrz_base = "https://xmldata.qrz.com/xml/?";
+        static readonly string qrz_base = "https://xmldata.qrz.com/xml/current/?";
         private static string NewQRZKey()
         {
             string qrz_un = "kd2fmw";
@@ -28,34 +30,38 @@ namespace wsjt_message.Listener.Utils
             {
                 qrzkey = NewQRZKey();
             }
-            string DXCC;
-            string qerror="";
+            string DXCC = "999";
+            string qerror = "";
             string qrz_url = qrz_base + "s=" + qrzkey + ";callsign=" + callsign;
             XElement xml = XElement.Load(qrz_url);
             XNamespace qrzns = "http://xmldata.qrz.com";
             if (xml.Element(qrzns + "Session").Element(qrzns + "Error") != null)
             {
-                 qerror= xml.Element(qrzns + "Session").Element(qrzns + "Error").Value;
+                qerror = xml.Element(qrzns + "Session").Element(qrzns + "Error").Value;
+                if (qerror == "Session Timeout")
+                {
+                    qrzkey = NewQRZKey();
+                    qrz_url = qrz_base + "s=" + qrzkey + ";callsign=" + callsign;
+                    xml = XElement.Load(qrz_url);
+                    qrzns = "http://xmldata.qrz.com";
+                    if (xml.Element(qrzns + "Session").Element(qrzns + "Error") != null)
+                    {
+                        Console.WriteLine($"{callsign} {DXCC} {xml.Element(qrzns + "Session").Element(qrzns + "Error").Value}");
+                        return Int32.Parse(DXCC);
+                    }
+                }
             }
-            if (qerror =="Session Timeout" )
+            else if (xml.Element(qrzns + "Callsign").Element(qrzns + "dxcc") != null)
             {
-                qrzkey = NewQRZKey();
-                qrz_url = qrz_base + "s=" + qrzkey + ";callsign=" + callsign;
-                xml = XElement.Load(qrz_url);
-                qrzns = "http://xmldata.qrz.com";
                 DXCC = xml.Element(qrzns + "Callsign").Element(qrzns + "dxcc").Value;
-            }
-            else if (qerror.StartsWith("Not Found"))
-            {
-                DXCC = "-1";
+                Console.WriteLine($"{callsign}  {DXCC}");
             }
             else
             {
-                DXCC = xml.Element(qrzns + "Callsign").Element(qrzns + "dxcc").Value;
+                DXCC = "999";
+                Console.WriteLine($"{callsign}  {DXCC}");
             }
-            Console.WriteLine(DXCC);
-            return Int32.Parse(DXCC);
+        return Int32.Parse(DXCC);
         }
-
-    }
+    } 
 }

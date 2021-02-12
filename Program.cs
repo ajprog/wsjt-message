@@ -15,7 +15,6 @@ using Microsoft.Extensions.DependencyInjection;
 namespace wsjt_message.Listener
 
     { public class Program
-
     {
         public static IHostBuilder CreateHostBuilder(string[] args)=>
         Host.CreateDefaultBuilder(args)
@@ -77,7 +76,7 @@ namespace wsjt_message.Listener
                     byte[] message = bytes.Skip(0).Take(4).ToArray();
                     string magic = BitConverter.ToString(message, 0).Replace("-", "").ToLower();
 
-                    // if the magic numbe doesn't match, do nothing.
+                    // if the "magic number" doesn't match, jump to RAWADIF processing.
                     if (magic == magicNumber)
                     {
                         // Schema Version: qint32
@@ -183,16 +182,31 @@ namespace wsjt_message.Listener
                                     // ADIF Propagation mode  utf8
                                     break;
                                 case 12: //ADIF text utf8
-                                    position += 15; //skip total 27
-                                    int adif_len = bytes.Length - position; //Get total number of bytes for the ADIF portion of the message
-                                    string adif = Utils.ArrayTools.ToAsciiString(bytes, position, adif_len);
-                                    //Console.WriteLine($"{adif}");
-                                    Utils.DataBase.DBOpen();
-                                    Utils.DataBase.DBADIFRaw(adif);
-                                    string[] adifout = Utils.ADIFParser.ADIF(adif);
-                                    Utils.DataBase.ADIFinsert(adifout);
-                                    Utils.DataBase.DBClose();
-                                    //Console.WriteLine("Contact Logged");
+                                    position +=4; //skip total 16
+                                    string prog = Utils.ArrayTools.ToAsciiString(bytes,position,1);
+                                    if(prog=="W")
+                                    {
+                                        position += 11; //skip total 27
+                                        int adif_len = bytes.Length - position; //Get total number of bytes for the ADIF portion of the message
+                                        string adif = Utils.ArrayTools.ToAsciiString(bytes, position, adif_len);
+                                        //Console.WriteLine($"{adif}");
+                                        Utils.DataBase.DBOpen();
+                                        Utils.DataBase.DBADIFRaw(adif);
+                                        string[] adifout = Utils.ADIFParser.ADIF(adif);
+                                        Utils.DataBase.ADIFinsert(adifout);
+                                        Utils.DataBase.DBClose();
+                                        //Console.WriteLine("Contact Logged");
+                                    }
+                                    else if(prog=="J")
+                                    {
+                                        position += 9;  // skip total 25  
+                                        int adif_len = bytes.Length - position; //Get total number of bytes for the ADIF portion of the message
+                                        string adif = Utils.ArrayTools.ToAsciiString(bytes, position, adif_len);
+                                        //Console.WriteLine($"{adif}");
+                                        Utils.DataBase.DBOpen();
+                                        Utils.DataBase.DBADIFRaw(adif);
+                                        Utils.DataBase.DBClose();
+                                    }
                                     break;
                                 default:
                                     break;
@@ -213,9 +227,9 @@ namespace wsjt_message.Listener
                             Utils.ADIFParser.ADIF(adifonly);
                             //Console.WriteLine("Testing ADIF");
                             Utils.DataBase.DBOpen();
+                            Utils.DataBase.DBADIFRaw(adifonly);
                             string[] adifout = Utils.ADIFParser.ADIF(adifonly);
                             Utils.DataBase.ADIFinsert(adifout);
-                            Utils.DataBase.DBADIFRaw(adifonly);
                             Utils.DataBase.DBClose();
                             //Console.WriteLine("Contact Logged");
                         }
