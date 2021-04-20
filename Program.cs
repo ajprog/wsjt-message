@@ -33,7 +33,8 @@ namespace wsjt_message.Listener
         /// WSJT-X UDP Client Magic Number
         /// </summary>
         private const string magicNumber = "adbccbda";
-        private const string adiftextonly="<call";
+        private const string adiftextonly1="<call";
+        private const string adiftextonly2="<band";
         #endregion
 
         #region Start Listener
@@ -221,13 +222,14 @@ namespace wsjt_message.Listener
                         string adifraw = BitConverter.ToString(message).Replace("-","");
                         //Console.WriteLine($"{adifraw}");
                         string adifonly = Utils.ArrayTools.ToAsciiString(message, 0, adifraw.Length);
-                        if (adifonly.StartsWith(adiftextonly))
+                        if (adifonly.ToLower().StartsWith(adiftextonly1)||adifonly.ToLower().StartsWith(adiftextonly2))
                         {
 
-                            Utils.ADIFParser.ADIF(adifonly);
+                            
                             //Console.WriteLine("Testing ADIF");
                             Utils.DataBase.DBOpen();
                             Utils.DataBase.DBADIFRaw(adifonly);
+                            Utils.ADIFParser.ADIF(adifonly);
                             string[] adifout = Utils.ADIFParser.ADIF(adifonly);
                             Utils.DataBase.ADIFinsert(adifout);
                             Utils.DataBase.DBClose();
