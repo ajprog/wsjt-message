@@ -63,9 +63,14 @@ namespace wsjt_message.Listener.Utils
             //STRING    call
             x = Array.IndexOf(colnm, "call");    //find the position of the field name
             string call = value[x];             //assign the calue for the field
-            //STRING    gridsquare
-            x = Array.IndexOf(colnm, "gridsquare");
-            string gridsquare=value[x];
+            string gridsquare;
+            try{
+                x = Array.IndexOf(colnm, "gridsquare");
+                gridsquare=value[x];
+            }
+            catch{
+                gridsquare="";
+            }
             //STRING    mode
             x = Array.IndexOf(colnm, "mode");
             string mode = value[x];
