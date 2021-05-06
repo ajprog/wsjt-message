@@ -19,10 +19,10 @@ namespace wsjt_message.Listener.Utils
 
         private static string DBconnection() //MySQL connection String
         {
-            string username = "ft8off";
-            string password = "T1p2Tip";
+            string username = "user";
+            string password = "password";
             string server = "localhost";
-            string database = "ft8off";
+            string database = "db";
             string myConnector = "user=" + username + ";password=" + password + ";server=" + server + ";port=3306;database=" + database;
             return myConnector;
         }
