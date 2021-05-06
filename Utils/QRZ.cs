@@ -15,8 +15,8 @@ namespace wsjt_message.Listener.Utils
         static readonly string qrz_base = "https://xmldata.qrz.com/xml/current/?";
         private static string NewQRZKey()
         {
-            string qrz_un = "kd2fmw";
-            string qrz_pw = "July181983";
+            string qrz_un = "un";
+            string qrz_pw = "pw";
             string qrz_url = qrz_base + "username=" + qrz_un + ";password=" + qrz_pw;
             XElement xml = XElement.Load(qrz_url);
             XNamespace qrzns = "http://xmldata.qrz.com";
