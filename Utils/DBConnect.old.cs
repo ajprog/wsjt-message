@@ -1,8 +1,6 @@
-using MySql.Data.MySqlClient;
+/*using MySql.Data.MySqlClient;
 using System;
 using System.Linq;
-using System.Collections.Generic;
-
 
 // ********************************************************
 // Database connector and Insert scripting custom generated
@@ -48,140 +46,115 @@ namespace wsjt_message.Listener.Utils
         {
             cmd = new MySqlCommand(Query, conn);
         }
-        public static void ADIFinsert(Dictionary<string, string> adifout) // Need to seprate the array to field/value pairs
+        public static void ADIFinsert(string[] adifout) // Need to seprate the array to field/value pairs
         {
-            string call = "";
-            string gridsquare = "";
-            string mode = "";
-            string rst_sent = "";
-            string rst_rcvd = "";
-            string qso_date = "";
-            string time_on = "";
-            string qso_date_off = "";
-            string time_off = "";
-            string band = "";
-            string freq = "";
-            string station_callsign = "";
-            string my_gridsquare = "";
+            int len = adifout.Length;
+            int a;
+            int x = 0;
+            string[] colnm = new string[50]; // there are 18 possible fields to be output from WSJT-X
+            string[] value = new string[50]; // therefore there are 18 possible values
+            for (a = 0; a < len; a++) // a will iterate through the primary array. a will increase twice with each iteration of the loop
+            {
+                colnm[x] = adifout[a]; //x will iteratre through the second arrays for the proper split. x will iterate once through each loop
+                a++;
+                value[x] = adifout[a];
+                x++;
+            }
+            //STRING    call
+            x = Array.IndexOf(colnm, "call");    //find the position of the field name
+            string call = value[x];             //assign the calue for the field
+            string gridsquare="";
+            
+                x = Array.IndexOf(colnm, "gridsquare");
+                if(x>1){gridsquare=value[x];}
+            
+            //STRING    mode
+            x = Array.IndexOf(colnm, "mode");
+            string mode = value[x];
+            //STRING    rst_sent
+            x = Array.IndexOf(colnm, "rst_sent");
+            string rst_sent = value[x];
+            //STRING    rst_rcvd
+            x = Array.IndexOf(colnm, "rst_rcvd");
+            string rst_rcvd = value[x];
+            //DATE      qso_date
+            x = Array.IndexOf(colnm, "qso_date");
+            string qso_date = (value[x]);
+            //TIME      time_on
+            x = Array.IndexOf(colnm, "time_on");
+            string time_on = (value[x]);
+            //DATE      qso_date_off
+            x = Array.IndexOf(colnm, "qso_date_off");
+            string qso_date_off = (value[x]);
+            //TIME      time_off
+            x = Array.IndexOf(colnm, "time_off");
+            string time_off = (value[x]);
+            //STRING    band
+            x = Array.IndexOf(colnm, "band");
+            string band = value[x];
+            //STRING    freq
+            x = Array.IndexOf(colnm, "freq");
+            string freq = value[x];
+            //STRING    station_callsign
+            x = Array.IndexOf(colnm, "station_callsign");
+            string station_callsign = value[x];
+            //STRING    my_gridsquare
+            x = Array.IndexOf(colnm, "my_gridsquare");
+            string my_gridsquare = value[x];
+            //STRING    tx_pwr
             string tx_pwr = "";
             int is_qrp = 0;
-            string comment = "";
-            string name = "";
-            string operator_call = ""; // the ADIF field name operator is a reserved word
-            string propmode = "";
-            //string mode = "";
-            //string mode = "";
-            //string mode = "";
-            //string mode = "";
-
-
-
-
-            //STRING    call
-            if (adifout.ContainsKey("call"))
+            x = Array.IndexOf(colnm, "tx_pwr");
+            if (x > -1)
             {
-                call = adifout["call"];
-            }
-            //STRING    gridsquare
-            if (adifout.ContainsKey("gridsquare"))
-            {
-                gridsquare = adifout["gridsquare"];
-            }
-            //STRING    mode
-            if (adifout.ContainsKey("mode"))
-            {
-                mode = adifout["mode"];
-            }
-            //STRING    rst_sent
-            if (adifout.ContainsKey("rst_sent"))
-            {
-                rst_sent = adifout["rst_sent"];
-            }
-            //STRING    rst_rcvd
-            if (adifout.ContainsKey("rst_rcvd"))
-            {
-                rst_rcvd = adifout["rst_rcvd"];
-            }
-            //DATE      qso_date
-            if (adifout.ContainsKey("qso_date"))
-            {
-                qso_date = adifout["qso_date"];
-            }
-            //TIME      time_on
-            if (adifout.ContainsKey("time_on"))
-            {
-                time_on = adifout["time_on"];
-            }
-            //DATE      qso_date_off
-            if (adifout.ContainsKey("qso_date_off"))
-            {
-                qso_date_off = adifout["qso_date_off"];
-            }
-            //TIME      time_off
-            if (adifout.ContainsKey("time_off"))
-            {
-                time_off = adifout["time_off"];
-            }
-            //STRING    band
-            if (adifout.ContainsKey("band"))
-            {
-                band = adifout["band"];
-            }
-            //STRING    freq
-            if (adifout.ContainsKey("freq"))
-            {
-                freq = adifout["freq"];
-            }
-            //STRING    station_callsign
-            if (adifout.ContainsKey("station_callsign"))
-            {
-                station_callsign = adifout["station_callsign"];
-            }else if (adifout.ContainsKey("operator"))
-            {
-                station_callsign = adifout["operator"];
-            }
-            //STRING    my_gridsquare
-            if (adifout.ContainsKey("my_gridsquare"))
-            {
-                my_gridsquare = adifout["my_gridsquare"];
-            }
-            //STRING    tx_pwr
-            if (adifout.ContainsKey("tx_pwr"))
-            {
-                tx_pwr = new String(adifout["tx_pwr"].Where(char.IsDigit).ToArray());
+                tx_pwr = value[x];
+                tx_pwr=new String(tx_pwr.Where(char.IsDigit).ToArray());
                 if (Convert.ToInt32(tx_pwr) >= 1 && Convert.ToInt32(tx_pwr) <= 20) //Calculate the 1 point QRP bonus
                 {
                     is_qrp = 1;
                 }
             }
             //STRING    comments
-            if (adifout.ContainsKey("comment"))
+            string comment = "";
+            x = Array.IndexOf(colnm, "comment");
+            if (x > -1)
             {
-                comment = adifout["comment"];
+                comment = value[x];
             }
             //STRING    name
-            if (adifout.ContainsKey("name"))
+            string name = "";
+            x = Array.IndexOf(colnm, "name");
+            if (x > -1)
             {
-                name = adifout["name"];
+                name = value[x];
             }
             //STRING    operator_.call
-            if (adifout.ContainsKey("operator"))
+            string operator_call = ""; // the ADIF field name operator is a reserved word
+            x = Array.IndexOf(colnm, "operator");
+            if (x > -1)
             {
-                operator_call = adifout["operator"];
-            }else if (adifout.ContainsKey("station_callsign"))
-            {
-                operator_call = adifout["station_callsign"];
+                operator_call = value[x];
             }
             //STRING    propmode
-            if (adifout.ContainsKey("propmode"))
+            string propmode = "";
+            x = Array.IndexOf(colnm, "propmode");
+            if (x > -1)
             {
-                propmode = adifout["propmode"];
+                propmode = value[x];
             }
             //INT       is_dx
             int is_dx = 0;
             //IN PROGRESS
-            int mycall = QRZ.DCXXEntity(operator_call); ;
+            int mycall;
             int theircall = QRZ.DCXXEntity(call);
+            if (operator_call != "")
+            {
+                mycall = QRZ.DCXXEntity(operator_call);
+            }
+            else
+            {
+                mycall = QRZ.DCXXEntity(station_callsign);
+            }
             if (theircall != mycall)
             {
                 is_dx = 1;
@@ -258,3 +231,4 @@ namespace wsjt_message.Listener.Utils
     }
 }
 
+*/

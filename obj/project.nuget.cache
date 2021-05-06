@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IIMKL2fCZMyYaxg7qqn1Q5sZw0jd46iYPg+hTjuzf0mgGw0nZwd+h62H8faKulzeScouMZfu4xbG8xbsJd2VoQ==",
+  "dgSpecHash": "jEHfPzvkJ1ApTpm2PkZ6SyFr2rUGLZw3oTVaYdJSjKS46kqNq6Su7Xmyhy4GkE+dZ4qu9YnLF5aXoo72/Yig2g==",
   "success": true,
   "projectFilePath": "/mnt/c/Users/dan.TBS/source/repos/wsjt-message/wsjt-message.csproj",
   "expectedPackageFiles": [
@@ -52,8 +52,8 @@
     "/home/dan/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/home/dan/.nuget/packages/system.text.encoding.codepages/4.4.0/system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "/home/dan/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
-    "/home/dan/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/5.0.4/microsoft.netcore.app.runtime.linux-x64.5.0.4.nupkg.sha512",
-    "/home/dan/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/5.0.4/microsoft.aspnetcore.app.runtime.linux-x64.5.0.4.nupkg.sha512"
+    "/home/dan/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/5.0.5/microsoft.netcore.app.runtime.linux-x64.5.0.5.nupkg.sha512",
+    "/home/dan/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/5.0.5/microsoft.aspnetcore.app.runtime.linux-x64.5.0.5.nupkg.sha512"
   ],
   "logs": []
 }

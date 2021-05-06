@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -193,7 +193,7 @@ namespace wsjt_message.Listener
                                         //Console.WriteLine($"{adif}");
                                         Utils.DataBase.DBOpen();
                                         Utils.DataBase.DBADIFRaw(adif);
-                                        Dictionary<string, string> adifout = Utils.ADIFParser.ADIF(adif);
+                                        string[] adifout = Utils.ADIFParser.ADIF(adif);
                                         Utils.DataBase.ADIFinsert(adifout);
                                         Utils.DataBase.DBClose();
                                         //Console.WriteLine("Contact Logged");
@@ -225,11 +225,13 @@ namespace wsjt_message.Listener
                         string adifonly = Utils.ArrayTools.ToAsciiString(message, 0, adifraw.Length);
                         if (adifonly.ToLower().StartsWith(adiftextonly1)||adifonly.ToLower().StartsWith(adiftextonly2))
                         {
+
+                            
                             //Console.WriteLine("Testing ADIF");
                             Utils.DataBase.DBOpen();
                             Utils.DataBase.DBADIFRaw(adifonly);
-                            Dictionary<string,string> adifout = Utils.ADIFParser.ADIF(adifonly);
-                            //string[] adifout = Utils.ADIFParser.ADIF(adifonly);
+                            Utils.ADIFParser.ADIF(adifonly);
+                            string[] adifout = Utils.ADIFParser.ADIF(adifonly);
                             Utils.DataBase.ADIFinsert(adifout);
                             Utils.DataBase.DBClose();
                             //Console.WriteLine("Contact Logged");
@@ -267,3 +269,4 @@ namespace wsjt_message.Listener
     } // end Program
 
 } // end - Namspace wsjt_message.Listener.Program
+*/

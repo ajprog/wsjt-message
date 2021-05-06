@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +14,9 @@ namespace wsjt_message.Listener.Utils
 {
     public static class ADIFParser
     {
-        public static Dictionary<string, string> ADIF(string adifdata)
+        public static string[] ADIF(string adifdata)
         {
-            int position = adifdata.IndexOf("<EOH>");//Find where header ends
+             int position = adifdata.IndexOf("<EOH>");//Find where header ends
             string adifrow;
             if (position < 1)
             {
@@ -31,20 +31,21 @@ namespace wsjt_message.Listener.Utils
             //Console.WriteLine($"{position}");
 
             //Console.WriteLine(adifrow);
-            Dictionary<string, string> adifout = ReadRecord(adifrow);
+            string[] adifout = ReadRecord(adifrow);
             return adifout;
 
         }
 
-        static Dictionary<string, string> ReadRecord(string adifIN)
+        static string[] ReadRecord(string adifIN)
         {
-            Dictionary<string, string> adifout = new Dictionary<string, string>();
+            string[] adifout = new string[100];
             int eor = adifIN.IndexOf("<EOR>");
             if(eor<0)
             {
                 eor=adifIN.IndexOf("<eor>");
             }
-            int a;
+            int a, x;
+            x = 0;
             for (a = 0; a < eor; a++)
             {
                 if (adifIN[a] == '<')
@@ -73,7 +74,8 @@ namespace wsjt_message.Listener.Utils
                         }
                     }
                     len = Convert.ToInt32(len_string);
-                    //adifout[x] = tag_name;
+                    adifout[x] = tag_name.ToLower();
+                    x++;
                     while (len > 0)
                     {
                         a++;
@@ -81,7 +83,9 @@ namespace wsjt_message.Listener.Utils
                         len--;
                     }
                     //Console.WriteLine($"{tag_name} {value}");
-                    adifout.Add(tag_name, value);
+
+                    adifout[x] = value;
+                    x++;
                 }
 
             }
@@ -94,3 +98,4 @@ namespace wsjt_message.Listener.Utils
         }
     }
 }
+*/
